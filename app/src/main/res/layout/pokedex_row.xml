@@ -3,14 +3,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/pokedex_row_layout">
+    android:id="@+id/pokedex_row_layout"
+    android:padding="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground">
 
     <TextView
             android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/pokedex_row_text_view"
-        android:padding="16dp"/>
-
-
+        android:id="@+id/pokedex_row_text_view"/>
 
 </LinearLayout>
